@@ -2,27 +2,29 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #AD88C6;
   color: white;
   padding: 10px 20px;
 }
 
-.nav-links {
+.menu{
   list-style: none;
   display: flex;
 }
 
-.nav-links li {
+.menu li {
   margin-right: 20px;
 }
 
-.nav-links a {
+.menu a {
   text-decoration: none;
   color: white;
 }
 
 .logo img {
-  height: 40px; }
+  height: 100px;
+  border-radius: 50%;
+}
 
 .cart-widget {
   padding: 8px 12px;
@@ -44,7 +46,6 @@ nav {
   font-size: 18px;
   color: #666;
 }
-
 
 .logo {
   font-weight: 400;

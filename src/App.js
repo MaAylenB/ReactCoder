@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './aimelogo2.jpeg';
 import './App.css';
 
 const NavBar = () => {
@@ -7,9 +7,16 @@ const NavBar = () => {
         <div className="logo">
           <img src={logo} alt="Logo de la tienda react" />
         </div>
-        <ul className="nav-links">
+        <ul className="menu">
           <li><a href="/">Inicio</a></li>
           <li><a href="/productos">Productos</a></li>
+           <ul>
+                    <li><a href="">Carteras</a></li> 
+                    <li><a href="">Indumentaria</a></li> 
+                    <li><a href="">Anillos</a></li> 
+                    <li><a href="">Collares</a></li> 
+                    <li><a href="">Pulseras</a></li> 
+           </ul>
           <li><a href="/contacto">Contacto</a></li>
         </ul>
         <div className="cart-widget">
